@@ -1,0 +1,13 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>Ville</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>HTC</CSCName>
+	<CSCVersion>EUROPE</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/SER/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>
+

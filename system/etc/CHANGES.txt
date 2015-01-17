@@ -1,0 +1,816 @@
+===================================
+Since Wed Oct  8 10:08:09 UTC 2014
+===================================
+
+   * external/koush/Superuser
+6476a96 Automatic translation import
+f8ea01f Merge branch 'cm-11.0' into stable/cm-11.0
+ccde9f1 Automatic translation import
+14db056 Automatic translation import
+342fd64 Automatic translation import
+
+   * android
+ef6f95e Merge branch 'cm-11.0' into stable/cm-11.0
+0730a2d Android : Switch back to aosp mockito
+
+   * bionic
+3d00c5d Merge branch 'cm-11.0' into stable/cm-11.0
+1f5706c Use memmove from krait for cortex-a53 target
+75c7ca3 msm8916: Enable QCOM bionic optimizations
+
+   * bootable/recovery-cm
+e257818 sr: Header and font images for 540 width
+69c8e95 sr: Header and font images for 1440 width
+7c28d33 sr: Dejank the menus, fix colors
+a64125f sr: Improve overlay again
+880e648 sr: Remove extra image set
+a0a2386 sr: Kill logspam
+43f6007 sr: Update header image
+c89f2ce sr: Fix incosistent menu options capitalization
+82d6d22 install: Properly mask the updater status before checking
+5c47f5d sr: Header and font images for 480/720/1080 widths
+5670459 minui: Asynchronous rendering for overlay mode
+7e99b3c sr: check if touch selections fall within menu area
+
+   * build
+caee911 product_config: Set CM_BUILD priority above TARGET_BUILD_APPS
+0226dbf Merge branch 'cm-11.0' into stable/cm-11.0
+d615307 build: Fix some colored build issues
+737235c Force colorsheme to SVG, since darkblue doesn't exist on X11
+c001fcb build: recovery: Support target specific resource selection
+d8bcd44 build: Enable Uyghur locale
+f5a8485 build: Default to dtbToolCM
+b5d338e repopick: support specifying a range of commits to pick
+1e392d7 Edify: Add/Update abort messages for some asserts
+71f0b84 build: recovery: Remove INTERNAL_RECOVERY_FILES
+
+   * device/qcom/common
+3bcff47 power: Initial powerhal for 8939
+9c1e3d3 init_msm: Add usergroup permission to dynamic_fps node.
+2e65c97 power: Various updates to Power HAL
+284b288 power: add sched boost enum.
+8814b80 common: add CPU max cores online enums
+e8cf19d common: add CPU max freq enums
+
+   * external/bluetooth/bluedroid
+87f3789 Merge branch 'cm-11.0' into stable/cm-11.0
+
+   * external/chromium_org
+313b63f Merge branch 'cm-11.0' into stable/cm-11.0
+7cc0b49 Add client-side support for TLS_FALLBACK_SCSV
+ee480ef Add client-side support for TLS_FALLBACK_SCSV
+
+   * external/chromium_org/third_party/openssl
+ac952ed Merge branch 'cm-11.0' into stable/cm-11.0
+29dd718 Add client-side support for TLS_FALLBACK_SCSV.
+13ea96e Add client-side support for TLS_FALLBACK_SCSV.
+
+   * external/f2fs-tools
+f25e780 Merge branch 'cm-11.0' into stable/cm-11.0
+4f5a66a fibmap: fix void conflicting with dedupe
+65040c5 f2fstat: fix command-line options
+a0c8a0b f2fs-tools: remove printf warnings
+99b0cb5 f2fs-tools: show version on all tools
+d834ae7 f2fs-tools: add support for building for android
+
+   * external/ffmpeg
+755d697 ffmpeg: Add license notice files
+
+   * external/libnfc-nci
+29b5d87 Merge branch 'cm-11.0' into stable/cm-11.0
+da2562c Adding API for NXP specific NCI command
+d5fd4d4 Adding API for NXP specific NCI command
+
+   * external/okhttp
+7407e3c Merge branch 'cm-11.0' into stable/cm-11.0
+d1ea719 SCSV support
+e8612c5 SCSV support
+
+   * external/openssl
+b302f1d Merge branch 'cm-11.0' into stable/cm-11.0
+5c50876 Add support for TLS_FALLBACK_SCSV
+a8c4a5f Add support for TLS_FALLBACK_SCSV
+
+   * external/sepolicy
+92db6ff Merge branch 'cm-11.0' into stable/cm-11.0
+1400258 sepolicy: Fix a few denials when debugging
+
+   * external/skia
+64a4d21 Merge branch 'cm-11.0' into stable/cm-11.0
+
+   * external/sqlite
+4591684 Merge branch 'cm-11.0' into stable/cm-11.0
+e994ed6 Revert "Upgrade to SQLite 3.8.6"
+
+   * external/stagefright-plugins
+29c9319 stagefright-plugins: Return real bitwidth in getParameter call
+f24eecb ffmpeg_source: add url check to android_open
+8baf8a3 ffmpeg_source: do not adjust offset on read error/eof
+c29857d stagefright-plugins: Allow use of HW codecs for Windows Media
+
+   * external/whispersystems/WhisperPush
+ce479a6 Automatic translation import
+cb2fc08 Merge branch 'cm-11.0' into stable/cm-11.0
+60a8c1d Automatic translation import
+0b7a611 Automatic translation import
+cf355b0 Automatic translation import
+
+   * external/wpa_supplicant_8
+b166168 Merge branch 'cm-11.0' into stable/cm-11.0
+699897d P2P: Fix segfault when PBC overlap is detected
+3463345 X.509: Fix internal TLS/X.509 validation of PKCS#1 signature
+d16e18d P2P: Extend the listen time based on the active concurrent session
+b76a82e hostapd_cli: Use os_exec() for action script execution
+8e575d9 wpa_cli: Use os_exec() for action script execution
+5ed77d8 Add os_exec() helper to run external programs
+
+   * external/wpa_supplicant_8_ti
+40b310f hostapd_cli: Use os_exec() for action script execution
+e465cfb wpa_cli: Use os_exec() for action script execution
+14ac6a4 Add os_exec() helper to run external programs
+
+   * frameworks/av
+db54d08 Merge branch 'cm-11.0' into stable/cm-11.0
+248986c av: Various fixes and cleanups
+1d37d70 stagefright: Query PCM output format and fix bugs
+b34bb8b Solved problem with hanging decode call
+0bfe2ca stagefright: add an extra buffer to ANW's BUfferQueue
+8456543 NuPlayer: use video hardware codec only
+d8ee6bf stagefright: Don't expose QTIFLAC definition unless enabled
+a604d50 libstagefright: Wrapper for FLAC CSIM decoder
+6c52b69 camera: Allow hardware/camera.h header to be overridden
+47c27cd audio: handle events properly in AudioOutput::CallbackWrapper()
+7df0fea surfacemediasource: Do not assume that onBuffersReleased means EOS
+dee891c stagefright: Avoid querying time from AudioPlayer after audio EOS
+c040131 camera: Always enable preview metadata
+4ae8660 libstagefright: use appropriate hevc decoder on 8916 and 8939
+b4e89ed libstagefright: HSR: Read framerate from HSR key
+159c1b2 Revert "stagefright: Disable HSR for now"
+75355f4 Revert "libmedia: Add flag for non-native FAST tracks."
+118f947 Remove potential cause of underrun.
+071b18b media: Cleanup some unnecessary old code
+f8a7a34 stagefright: Fix crash if PCM offload gets a null source
+a64683d Support MPEG4 and H263 FourCC types in Matroska files
+786f859 libstagefright: extend the interface to switch rtp transport
+8819240 libstagefright: Handle INFO_FORMAT_CHANGED for dolby clips
+721128f effects: miscellaneous fixes
+bced0f7 stagefright: Fix CTS failures
+743104d stagefright: Scan for ".ts" files
+0c98ffb stagefright: STEVE BUYS DONUTS
+a667d25 libmedia: Add flag for non-native FAST tracks.
+f55dc4e stagefright: Resolve turf war between FFMPEG and mm-parser
+8652041 audio: Audio resampler support for 192Khz playback
+cff76de stagefright: Use multiaac decoder for multiaac :)
+bf1690b stagefright: More high-resolution audio support
+0ea7bfd audioflinger: Allow FAST tracks for any supported sample rate
+
+   * frameworks/base
+63d0b47 Automatic translation import
+e799422 PackageManager: Add optional prelaunch check step
+3c79b98 PackageManager: Add configuration APIs for pre-launch checks
+b0fb229 Add system|signature permission for intercepting package launch.
+36bec5b radio: Treat REGULAR_DEACTIVATION events as transient errors on AT&T
+b52f594 Merge branch 'cm-11.0' into stable/cm-11.0
+39e0257 Revert "Bypass the lockscreen when the hardware keyboard is slid out and security mode is 'none'"
+8808d97 keyguard: fix chopped layout on hdpi msim devices
+9627c9d core: Improve strings
+2c9b1e9 SystemUI: Fix crash during notification/theme change
+d66033c Global Settings (MSIM): Add global settings for naming sim cards
+427c5a8 WIFI: Fix wimax teardown when wifi connected
+74d77ff perf: Send boost hint during initial launch
+b1f0dfd Use actual storage type for format message strings
+507df14 Improve screen timeout QS tile
+01c0a0b linearlayout: fix measurement of childrens when parent and childrens have exactly the same pixels
+650b579 Automatic translation import
+b005652 frameworks: fix setting default ringtone for multi sim
+c4aeced SystemUI: Fix RemoteDisplayTile crash on clean boot
+93f3a22 Access ProtectedAppsActivity from SystemUI Recents page if any components are protected.
+be9705a Add support for single color notification LED (1/2)
+7590dfc msim: initialize sim icon to the known state
+5744ab1 SystemUI: Avoid NPEs during status bar recreation for MSIM
+27742ae SystemUI: Fix network label regression
+d0389b8 Move UICC storage string to cm_strings
+6cfa3cb 'Delete application' development shortcut
+d1bca64 Keyguard: Change SUB label to SIM
+666f3da SystemUI: Status bar UI cleanup for MSIM and roaming
+516ad52 Add string resource for UICC storage
+618af8b symbols: Remove duplicate symbol
+013b39d Rename "Wi-Fi AP" QS tile to "Wi-Fi hotspot"
+bb45c13 SystemUI: fix crash when removing tile
+1a0a6a5  MTU should be 1358 as per 3GPP standards, especially for LTE radio interfaces.
+fc35aca Keyguard: Move string to cm_strings
+08fbcf6 Automatic translation import
+f1f92ce lowmemorykiller: Overwrite LMK parameters for low-tier devices
+3a6ced7 Tethering: Enable NAT only when tether and upstream ifaces are different.
+d5d5d1b AudioService: Fix monitorRotation for landscape applications
+8f6b73c Fix memory leak in nativeDecodeFileDescriptor
+ce8c41c extmediaplayer: miscellaneous fix
+6293525 Support full size application screenshots
+c27950d Keyguard: Allow applications to customize left-corner widget
+14d26c5 Recents long press: add pluggable implementation
+4125505 Add Secure.Settings.RECENTS_LONG_PRESS_ACTIVITY
+48a7774 Provide non-interactive APIs to BackupManagerService
+86705dd PackageManager: Add optional prelaunch check step
+0ef5fe9 Update SET_ACTIVITY_WATCHER protection to signature|system
+554d6d9 SystemUI : RemoteDisplayTile use executor
+5d69d2c Fix wrong scaling of QS tiles
+6d9ed99 Revert "Avoid collision with RIL constant 1138, used in some Samsung devices for RIL_UNSOL_TETHERED_MODE_STATE_CHANGED."
+4b6b64b Only start one WifiClientScanner
+30f9101 Automatic translation import
+0718ab2 SystemUI: Fix data activity arrows for MSIM
+2ddf573 Themes: Force recompiling common resources when scanning theme
+d4757d4 SystemUI (MSIM): Add extra vaules for sim state ready
+11324a2 SystemUI: Rework SearchPanelView calculations
+7eece5b Left handed navbar: fix keyboard placement in immersive mode
+cca7647 AudioService: Reduce volume to safe level when headset is connected (2/2)
+a8c9061 NetworkController: Extra WIMAX icon handling
+0128d90 base: display live wallpaper settings instead of wallpaper picker
+e9a85e9 quiethours: fix vibration logic
+193c5ed Customisable location tile(2/2)
+
+   * frameworks/native
+e64f38c Merge branch 'cm-11.0' into stable/cm-11.0
+dc0a7a5 sensorservice: add fusion sensors if all events are supported
+af2dde6 native: Make setting the buffers size conditional to qualcomm hardware
+
+   * frameworks/opt/telephony
+601afac Merge branch 'cm-11.0' into stable/cm-11.0
+44f20f9 Telephony: Close the FileReader when finished
+5619547 MSIM(DSDA): Update setMode properly.
+5cbd7de Fix MMS sending issue in LTE on CDMA networks.
+c8e12dc Correct order of parameter in iccExchangeApdu()
+87e03ee Telephony: Decode Virgin Mobile US MMS
+
+   * frameworks/opt/telephony-msim
+9f032d5 Fix MMS sending issue in LTE on CDMA networks.
+dadbef4 Update phoneSubInfo properly
+
+   * hardware/libhardware
+2a3acec Bluetooth: Fix to add SSR clean during disable timeout
+
+   * hardware/qcom/audio
+548b33e Merge branch 'cm-11.0' into stable/cm-11.0
+68d0fd7 hal: Limit MP2 and WMA offload to 8226/8974 devies only
+fef19c5 audio: Add support for offloading MPEG2 and WMA
+
+   * hardware/qcom/audio-caf
+aece1f0 audio-caf: hal: bugfixes to PLATFORM_MSM8960
+e8e1a50 Merge branch 'cm-11.0' into stable/cm-11.0
+a69ecd3 hal: Fix mismerge
+e0d3dba hal: Support the audio amplifier hook
+356c661 Revert "hal: Don't mess with primary output"
+78c1b64 hal: Add get_sample_rate for 8960 platforms
+1ebac85 hal: Fixes for 8916 features
+97d56fe hal: Update msm8916 library with new feature support
+33691e2 hal: Featurize use of mdm_detect library
+c3cb85f hal: load CSD library by checking number of modems
+3023337 hal: add support for I2S based external modem
+fc56491 hal: Don't mess with primary output
+b45848b hal: Allow msm8916 to enable compress voip/compress capture/dolby
+51a399e mm-audio: aenc: make frame_count variable 64 bit
+099bb59 hal: expand ultra low latency guards
+7d1d8bf hal: Add support for listen playback concurrency
+1f65db1 Only change usecase to ultra-low-latency-playback if it's enabled
+
+   * hardware/qcom/gps
+793746d Destroy client handles after they're closed
+
+   * hardware/qcom/keymaster
+f6ae49b qcom: keymaster: Include keymaster in all targets
+
+   * hardware/qcom/media-caf
+0e6b036 mm-core: Enable HW wma10pro decoder for msm7x30
+39f3876 mm-core: msm7x30: Fix code formatting
+5c0b10a mm-core: msm7x30: Enable HW mp3 decoder
+8bb7643 mm-core: msm7x30: Update copyright to The Linux Foundation
+
+   * hardware/ril
+6c5c956 Revert "hardware: ril: Avoid collision with RIL constant 1138"
+decb970 Support for SEEK on Android
+523ebb2 Weaken external rild symbol.
+5d760e3 rild: Unbreak multi-SIM socket name
+
+   * hardware/ti/wlan
+c132fa8 wl12xx: Don't build wl1251 if the kernel doesn't require it
+3ef1531 wl12xx: Stop messing with modprobe
+
+   * kernel/htc/msm8960
+d559526 Merge branch 'cm-11.0' into stable/cm-11.0
+af51a04 staging: prima: Merge AU_LINUX_ANDROID_KK_2.7_RB1.04.04.04.007.066
+373cf20 m7 kernel: Add FM radio support
+db58087 radio: iris: Use #define to declare numerical constants
+0deef91 radio: iris: Fixed an issue with search stations list.
+66b1e2e radio: iris: Bound check user space values
+96ba786 radio: iris: Add NULL pointer check
+edc330a radio: iris: Add the parameter to turn on/off sig blend
+1aa8b2d radio-iris: Configure repeat count for PS string
+95cd5f3 radio: iris: Expose FM Radio commands and events to user-space
+
+   * libcore
+bf27bf3 Merge branch 'cm-11.0' into stable/cm-11.0
+0ff7dfa Add support for TLS_FALLBACK_SCSV
+0dc9bee Add support for TLS_FALLBACK_SCSV
+
+   * packages/apps/Apollo
+34f2d7b Automatic translation import
+d121567 Merge branch 'cm-11.0' into stable/cm-11.0
+1e85921 Automatic translation import
+8225201 Automatic translation import
+
+   * packages/apps/BasicSmsReceiver
+1461cef Automatic translation import
+
+   * packages/apps/Bluetooth
+218a00e Merge branch 'cm-11.0' into stable/cm-11.0
+2af0e0e Automatic translation import
+76dbe28 Automatic translation import
+1c87ad3 Automatic translation import
+f9d645b Bluetooth-OPP: Cleanup pending share while BT turn OFF
+aa3137b Bluetooth: Re-try connection in Quiet Mode.
+74e613c Bluetooth: Fix for BT fails to turn on in PDT test
+de42249 Fix to avoid the invalid state of profiles
+40d410d Bluetooth: Initiate SDP after remote disconnect.
+869566a Bluetooth: Delay timeout for ConnectOtherProfile.
+3219c40 Bluetooth: Fix for Intent to reach the receiver timebound
+5d124df Bluetooth: Added null check condtion.
+5730a8e Bluetooth: Broadcast Audio Stopped Event.
+93e2c8c Bluetooth: Remove Connect time-out in stable state.
+
+   * packages/apps/BluetoothExt
+9b99138 Automatic translation import
+a280feb Automatic translation import
+
+   * packages/apps/Browser
+533e86d Automatic translation import
+de4be4f Merge branch 'cm-11.0' into stable/cm-11.0
+60aabac Automatic translation import
+9cb033d Automatic translation import
+
+   * packages/apps/CMAccount
+5076aac Automatic translation import
+dd581b8 Merge branch 'cm-11.0' into stable/cm-11.0
+27c5c5d Automatic translation import
+9dce092 Automatic translation import
+
+   * packages/apps/CMBugReport
+e0c8f0b Automatic translation import
+8243855 Merge branch 'cm-11.0' into stable/cm-11.0
+065dca0 Automatic translation import
+da36a65 Automatic translation import
+24b84a8 Adding optional screenshot upload to CMBugReport
+85a6ca1 Automatic translation import
+
+   * packages/apps/CMFileManager
+9a64a5f Automatic translation import
+8c75908 Merge branch 'cm-11.0' into stable/cm-11.0
+08519b1 Automatic translation import
+1222f4a Automatic translation import
+10da422 Automatic translation import
+
+   * packages/apps/CMHome
+17aa51a Merge branch 'cm-11.0' into stable/cm-11.0
+02f13e8 Automatic translation import
+bab3895 Automatic translation import
+
+   * packages/apps/CMUpdater
+6a63221 Automatic translation import
+d501a72 Merge branch 'cm-11.0' into stable/cm-11.0
+596fc5c Automatic translation import
+a37d923 Automatic translation import
+b66ba34 Automatic translation import
+7766639 CMUpdater: only list updates for current channel
+
+   * packages/apps/CMWallpapers
+ddfa2bd Merge branch 'cm-11.0' into stable/cm-11.0
+e4d2184 Automatic translation import
+8a25301 Automatic translation import
+3309b54 CMWallpaper: respect suggested size
+
+   * packages/apps/Calculator
+6973c56 Automatic translation import
+b18d2b5 Automatic translation import
+1f8f5c5 Automatic translation import
+fe85f5a Automatic translation import
+
+   * packages/apps/Calendar
+e2abb8b Automatic translation import
+bbd5b8a Merge branch 'cm-11.0' into stable/cm-11.0
+9b1b978 Automatic translation import
+6327bb1 Automatic translation import
+ae54973 Automatic translation import
+
+   * packages/apps/Camera2
+b86bd07 Automatic translation import
+a96c64c Merge branch 'cm-11.0' into stable/cm-11.0
+f19adb5 Revert "camera: add support for samsung and htc camcorder modes"
+0e79bb6 Camera2: Remove CAF video duration code
+4287797 Camera: Don't enable shutterdown for count down timer
+9dc82ab Camera: Decrease downsample factor for smaller resolution
+faca259 Camera2: enable WNR in video mode
+043d219 Camera: cancel auto focus after snapshot done if in CAF mode.
+d5a5b7a Camera2: enable antibanding when dis is enable
+fd45a63 Camera2: fix sawtooth in camera preview
+4fff272 Camera2: Make menu not pop up in take picture interface
+b9c718e Automatic translation import
+1d44171 Camera2: correct image size recorded in media provider db
+6818971 Camera2: fix camera has stopped" after long press camera key
+6c2b96a Camera2: Fix crash on cameras with 6mp 16:9 resolution
+34cee56 Add 16:9 to strings
+cd9fe44 Camera2: disable the shutter button when not previewing
+46f2f7c Camera2: the menu button should not visible in some cases
+b5e5e59 Camera2: fix flash light turn on after resume camera activity
+0b9bae7 camera2: Fix memory leak when suspend/resume camera
+95f9cda Camera2: Add option to set max screen brightness
+d989a5f Camera2: add new mime type for panorama picture
+0121f80 Camera2: save the picture when rotate the device
+e0a2e31 Camera2: wait for previous saving picture done during panorama capture
+241b944 Camera2: some aapt warnings cleanup
+a11ce3b Camera2: fix white balance still work when turn on the HDR mode
+79c0c05 Fix WB indicator override
+d97814a Revert "Camera2: Fix WB onScreenIndicator when some are settings filtered out."
+451a727 Camera2: fix The flashlight still is on after set scene mode not auto
+2cec466 Camera2: update the flash icon when set HDR on
+6f5cb27 Camera: Block HFR option for Video HDR
+0cb7b88 Camera: Disable DIS option for unsupported resolution
+d1a6002 Camera: Block DIS and Timelapse for HFR
+7c9c584 Camera: Check if codec supports HFR resolution/fps.
+08a1edd Camera: Change video capture duration with HFR
+3b8cbff Camera2: Fix ANR when switching camera during AF
+5c1231c camera: Override color effect when scene mode is active
+529889f Camera2: fix unresponsive shutter button after failure
+e7c249e Camera2: Don't report incorrect supported picture formats
+e8f9779 Camera2: fix camera crash when mPieRender is null
+a380db3 Camera2: Fix video duration is wrong issue
+50d36b2 Camera2: fix a camera status bug
+9f87f1e Camera2: Do not restart preview to update flip params during orientation change.
+562fcac Camera2: fix start preview when hdr is on issue
+b4990d6 Camera2: Still popup tips when change scene to other after turn off HDR
+0e4ff22 Camera: Disable HDR when scene mode is other than auto
+9ca415b Camera: open Camera and start Preview in a seperate thread.
+77468c1 Automatic translation import
+ee3eba7 Camera: Add proper support for ListPreference
+69dca15 Automatic translation import
+4d474cb Camera: Disable video HDR on devices that don't support it
+96e2e95 Add 15.9MP and 11.9MP picture size to arrays.
+2964913 Camera2: fix a crash in taking picture
+6d70ed5 Camera: Make popup menus consistent
+91b71ba Camera: Cleanup qcom resources
+2648013 Camera: Add ISO values for sony devices
+b25459b Camera2: Revert ZSL burst mode
+
+   * packages/apps/CellBroadcastReceiver
+0a72cd7 Automatic translation import
+01ff5ef Automatic translation import
+
+   * packages/apps/CertInstaller
+1ddf3ba Automatic translation import
+
+   * packages/apps/Contacts
+ce8278b Automatic translation import
+091925b Merge branch 'cm-11.0' into stable/cm-11.0
+dbd31fc Contacts: Use correct SIM contacts uri without MultiSIM
+e675a5d Contacts: fix clicking on contact list item action with multi sim
+37ff283 Contacts: Don't show phone-local profile as null.
+c722cf2 Automatic translation import
+efb0927 When recieving the intent we now check if the WANT_EXPORT extra is present
+6733665 Automatic translation import
+d3551ba ContactsCommon: Add direct call from contact list feature. (2/2)
+85fa16a Automatic translation import
+4d77711 contacts: CAF conflated "Delete" by adding multi-delete
+18456c6 Contacts: Fix NPE when selecting a contact on a tablet
+62297f0 contacts: Add missing tablet menu items
+
+   * packages/apps/ContactsCommon
+8c918d3 Automatic translation import
+6decd95 Merge branch 'cm-11.0' into stable/cm-11.0
+6c013c7 ContactsCommon: Use global settings for msim name
+7e77501 Automatic translation import
+1c50eab Fixing Contacts crash when trying to merge two contacts
+0cbd4e1 Enable support for groups in External contacts accounts
+6414406 ContactsCommon: Fix CONTACT_SNIPPET declaration.
+b41445a Added a WANT_CONTACTS intent extra to indicate that we want to export...
+795d62c ContactsCommon: Add PHOTO_ID to contact tile loader projection
+50e6500 Automatic translation import
+18c3f81 ContactsCommon: Add direct call from contact list feature. (1/2)
+b39a4ac Automatic translation import
+7d1d1b3 contacts: don't relay on unlocalized strings
+
+   * packages/apps/DSPManager
+35af48d Automatic translation import
+eec4297 Merge branch 'cm-11.0' into stable/cm-11.0
+141fa3b Automatic translation import
+123370c Automatic translation import
+99af4f1 Automatic translation import
+eda8fac audio_effects.conf - Add loudness enhancer
+
+   * packages/apps/DeskClock
+20b94b6 Merge branch 'cm-11.0' into stable/cm-11.0
+a8059ac Automatic translation import
+60decc5 Automatic translation import
+0746f62 Automatic translation import
+09ca6d3 Alarms: Fallback to defualt when uri is invalid
+
+   * packages/apps/Dialer
+24e2e37 Automatic translation import
+f9db814 Merge branch 'cm-11.0' into stable/cm-11.0
+b6783c4 Dialer: Use global settings name for MSIM
+6a2f008 Dialer: fix last call card not initiating dial on click for multi sim
+9e5bc66 Dialer: do not assume which subscription to use in call detail header
+89aa1b9 Automatic translation import
+017cbbf Dialer: Fix possible crash in call details
+27a0050 Automatic translation import
+637e2f0 Dialer: Fix NPE in CallStats
+526bd53 Dialer: Fix NPE in CallStats
+7c57573 Fix uncaught exception when no location provider available
+da62675 Automatic translation import
+
+   * packages/apps/Email
+4e46e3d Automatic translation import
+81b2f4f Merge branch 'cm-11.0' into stable/cm-11.0
+c3d82dc Automatic translation import
+ec1e85a Automatic translation import
+3454b1a Automatic translation import
+
+   * packages/apps/Exchange
+0e95c39 Automatic translation import
+
+   * packages/apps/Gallery2
+b44d639 Automatic translation import
+e56c006 Merge branch 'cm-11.0' into stable/cm-11.0
+0e166e3 Automatic translation import
+96901d3 Add record time to details view
+3a82b6a Automatic translation import
+c4be435 Automatic translation import
+
+   * packages/apps/HTMLViewer
+9448072 Automatic translation import
+
+   * packages/apps/InCallUI
+ccceac3 Automatic translation import
+7beb28b Merge branch 'cm-11.0' into stable/cm-11.0
+b29f26a InCallUI: Use global settings name for MSIM
+c733c39 Automatic translation import
+60a41f7 InCallUI: Minor UI cleanup for displaying sim name
+95550a0 Automatic translation import
+eae3ce5 Automatic translation import
+
+   * packages/apps/KeyChain
+9de8175 Automatic translation import
+
+   * packages/apps/LockClock
+150443d Automatic translation import
+922bf74 Merge branch 'cm-11.0' into stable/cm-11.0
+607bb5b Automatic translation import
+8aa0a97 Automatic translation import
+
+   * packages/apps/Mms
+300d327 Automatic translation import
+00e94f6 Merge branch 'cm-11.0' into stable/cm-11.0
+92065f3 Automatic translation import
+c82c816 Automatic translation import
+3bd6de6 Automatic translation import
+
+   * packages/apps/Nfc
+393e4e3 Merge branch 'cm-11.0' into stable/cm-11.0
+844398c Adding MiFARE DESFire format support
+38be878 Adding MiFARE DESFire format support
+11a53db Automatic translation import
+
+   * packages/apps/PackageInstaller
+95a44eb Automatic translation import
+5537e22 Automatic translation import
+
+   * packages/apps/Settings
+6e7786d Add description to Nextbit Pass widget setting
+677fa76 Automatic translation import
+219c560 Enable application widget (pass widget) for the mod lock too.
+c8e09be Update marketing name for Appcast to Pass
+d95c1b8 Merge branch 'cm-11.0' into stable/cm-11.0
+5c24a3d Settings: Minor string update for msim
+f0bc720 Settings (MSIM): Refactor tab labels to use global sim name
+86e2a69 Launch theme chooser that supports cyngn.intent.category.APP_THEMES
+308762c Automatic translation import
+e0ab186 Don't try to restore Set on Boot settings before decrypting
+0e1f108 Fix light preference padding
+923b357 Add support for single color notification LED (2/2)
+62ff30f Settings: Fix profiles volume override summary.
+769b6c5 DeviceInfoSettings: Update the cpuinfo parser
+84518df Modify the Development shortcut help text
+c2bfa3d Settings: Change labels for MSIM
+b469cfb Settings: Fix "Use actual storage type of sdcard/usb (1/2)."
+6b27b13 Settings: Improve some strings
+5980952 Profiles: fix expanded desktop settings not applying
+56aaab3 Launch Protected Apps
+7b8d704 Fix copyright headers
+6104cce Automatic translation import
+8de066d Settings: ButtonSettings: Introduce recents long press action
+b24b2e6 Settings: Let users disable the left-corner Keyguard widget
+e29c1c4 Settings: Set untranslatable
+57b11f5 Settings: Allow Regulator Information Dialog Title to be overlaid.
+cc5296e Settings: Allow Regulator Information Dialog Title to be overlaid.
+f6f393d fix: Settings FC when WiFi tethering is active.
+85007da Change Regulatory Info Activity to prefer string over image
+e4fc171 Change Regulatory Info Activity to prefer string over image
+0964e85 Development: Root for apps is unavailable if the su daemon isn't running
+d07ec74 Automatic translation import
+55ae419 Development: Root for apps is unavailable if the su daemon isn't running
+c041b5e Settings: Improve AOSP JA translation
+df97267 Settings: Reduce volume to safe level when headset is connected (1/2)
+f95543d settings: Avoid NPE in NfcTrigger when device doesn't support NFC
+6833e8c setting: Always remove Left-handed mode setting for non-phones
+b719968 cmhw: Use hardware's default value for display features
+c50556b Open app when clicking on icon in App Info screen
+4da3535 Customisable location tile(1/2)
+8f4197d Settings: Set untranslatables
+87147e0 Settings: cleanup new profiles UI
+
+   * packages/apps/SoundRecorder
+3615e27 Automatic translation import
+c5bb502 Automatic translation import
+e23da0e Automatic translation import
+
+   * packages/apps/Stk
+7509b9a Automatic translation import
+ac69c5d Automatic translation import
+cc65d27 Automatic translation import
+
+   * packages/apps/Tag
+7ff0b4c Automatic translation import
+
+   * packages/apps/ThemeChooser
+d242584 Automatic translation import
+94494e3 Merge branch 'cm-11.0' into stable/cm-11.0
+070d645 Automatic translation import
+
+   * packages/apps/Torch
+f61ddfa Automatic translation import
+27ac1b2 Merge branch 'cm-11.0' into stable/cm-11.0
+6942a0d Automatic translation import
+d22704c Automatic translation import
+
+   * packages/apps/Trebuchet
+8238108 Automatic translation import
+6fbf5b6 Merge branch 'cm-11.0' into stable/cm-11.0
+956a856 Catch ActivityNotFoundException when launching GlobalSearchActivity.
+af6bd9f Launch theme chooser that supports cyngn.intent.category.APP_THEMES
+c6c9991 Automatic translation import
+fa59cf3 Trebuchet: RTL support for Settings Screens
+d742d21 Automatic translation import
+66fe9ac Automatic translation import
+2ad55f7 Trebuchet: Add some padding to overflow icon in transition settings
+
+   * packages/apps/UnifiedEmail
+2513703 Automatic translation import
+486644d Automatic translation import
+1c3a13a Automatic translation import
+c7603b8 Automatic translation import
+
+   * packages/apps/VideoEditor
+a910cff Automatic translation import
+
+   * packages/apps/VoiceDialer
+9be54af Automatic translation import
+
+   * packages/apps/VoicePlus
+92bfb12 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+8622f43 Automatic translation import
+27f979a Automatic translation import
+29fa0f0 Automatic translation import
+5dc20bc Automatic translation import
+
+   * packages/providers/CalendarProvider
+1053ad7 Automatic translation import
+
+   * packages/providers/ContactsProvider
+7e77b79 Automatic translation import
+58e1803 Automatic translation import
+d58f289 Automatic translation import
+
+   * packages/providers/DownloadProvider
+e4b9edd Automatic translation import
+97086b2 DownloadProvider: fix secondary storage support
+53804e4 Automatic translation import
+dc52b7e Automatic translation import
+1bf992d Automatic translation import
+
+   * packages/providers/MediaProvider
+b14c644 Automatic translation import
+
+   * packages/providers/TelephonyProvider
+9e0c6a8 Automatic translation import
+
+   * packages/providers/ThemesProvider
+52da5ca Merge branch 'cm-11.0' into stable/cm-11.0
+67ae00a Automatic translation import
+
+   * packages/providers/UserDictionaryProvider
+565f52d Automatic translation import
+
+   * packages/screensavers/Basic
+7138a1e Automatic translation import
+
+   * packages/screensavers/PhotoTable
+627e389 Automatic translation import
+
+   * packages/services/Telephony
+54e1559 Automatic translation import
+11dd7c4 Merge branch 'cm-11.0' into stable/cm-11.0
+2497680 TeleService: (MSIM) Avoid crashes when clicking actionbar home
+997e6a7 TeleService: Refactor sim name / sim label logic
+91facac Telephony: bugfix - let us edit 'My phone number' again
+d52fec7 TeleService: For Msim DSDS, set mode to 2g(all sims) prior to change
+044d433 Telephony: Fix NPE while opening allowed number.
+94cb899 Telephony: Disable MSISDNEditPreference until init complete.
+27f0ddc Automatic translation import
+1b7e355 TeleService: Make string translatable
+e459bd9 Fix Quiet hours for MSim
+768d6ca TeleService: MSIM UI clean up
+056169f TeleService: fix vibrate on answer
+2e8b0fd TeleService: Change labels for MSIM
+f8cf24e Automatic translation import
+308ae60 TeleService: use MSimPhoneFactory for MSIM devices
+9d4874f Automatic translation import
+f823f5e TeleService: fix event settings NPE
+
+   * packages/wallpapers/Basic
+7da1ee2 Automatic translation import
+991a544 Automatic translation import
+
+   * packages/wallpapers/Galaxy4
+dfa2e81 Automatic translation import
+
+   * packages/wallpapers/HoloSpiral
+bc3eb38 Automatic translation import
+
+   * packages/wallpapers/LivePicker
+71b1059 Automatic translation import
+
+   * packages/wallpapers/MagicSmoke
+b331d48 Automatic translation import
+
+   * packages/wallpapers/MusicVisualization
+7bbe291 Automatic translation import
+
+   * packages/wallpapers/NoiseField
+e7bc861 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam
+4b326ba Automatic translation import
+20426f5 Automatic translation import
+8d4d013 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase
+f9806b5 Automatic translation import
+943a237 Automatic translation import
+1fa11d1 Automatic translation import
+4016221 Automatic translation import
+
+   * system/core
+5a01785 Merge branch 'cm-11.0' into stable/cm-11.0
+7a4078c init: add a new charger-fs trigger in the power off charging mode
+47ef02d core: Correct the sensors UID
+9aac9ea core: Correct the sensors UID
+f55d74f system: core: Add Sensors group
+5d31680 system: core: Add Sensors group
+de42ce3 adb/fastboot: Support SuperSpeed USB devices
+676d8aa fastboot: Add missing USB ID
+551f044 audio: Unhide MP2/WMA enums
+d5b863a System/core: Start qrng daemon upon power up
+
+   * system/vold
+2f5f3e1 Merge branch 'cm-11.0' into stable/cm-11.0
+
+   * vendor/cm
+cbf530a Merge branch 'cm-11.0' into stable/cm-11.0
+5185145 Update APNs for Japan
+9f87e8c Add SoftBank(Japan) APN
+077be3a APN: Giffgaff -> giffgaff
+2f9f33b Migrate Telenor Norway APN to IPV6
+4333141 added mvno matching for Canada
+0a5ea89 added mvno matching for Denmark
+e1d6d09 added Ringplus APN
+14634cb added T-Mobile MVNO Wholesale apn
+a2876cf added Ooredoo Tunisie & Tunisie Télécom apns
+8b06de9 Add TF701T contributor
+54b7fdb fixed Lycamobile APNs
+37d1e15 corrected Beeline UA apn
+b42943f added Afghanistan, Sri Lanka, Iraq, Kuwait apns
+4f68792 corrected Yota APN
+eee8183 updated NOS/MEO apn names
+9aaa2b1 cleanup: Spain APNs
+fd6bf3b added Africell APNs, moved Movistar PA APN
+a7fe3aa fixed Bouygues APNs
+1e628bf add/cleaned apn for Moldova/Poland
+eee4c81 Remove duplicate <!-- Azerbaijan -->
+c88de7a Changelog: Add M11, remove M6
+
+   * external/koush/ion
+8001d15 Ion: Update supported media types
+
+   * vendor/cyngn
+fe51990 Grant Nextbit the INTERCEPT_PACKAGE_LAUNCH permission
+adfedd1 permissions: Add screencast permissions
+8ebe6b4 Add Nextbit release signature to allow-permissions
+
